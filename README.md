@@ -2,7 +2,7 @@
 
 ## Laptop Screen
 
-- ![Laptop_1](/screenshots/Laptop_1)
+- ![Laptop_1](/screenshots/Laptop_1.png)
 - ![Laptop_2](/screenshots/Laptop_2)
 
 ## Tablet Screen

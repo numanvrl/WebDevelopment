@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Link to external stylesheet -->
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Meta information including character set and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Midterm</title>
+</head>
+
+<body>
+    <header>
+        <img src="../images/bank.png" alt="bank">
+        <div class="title">Save QuickCash</div>
+        <img src="../images/piggy-bank.png" alt="piggy-bank">
+        <div class="slogan">Saving Smarter, Living Better: Your Path to Financial Freedom!</div>
+    </header>
+
+    <!-- Main section with two rows: first-row and second-row -->
+    <section>
+        <!-- First row containing individual items with icons and strong text -->
+        <div class="first-row">
+            <div>
+                <strong>Check Savings</strong>
+                <img src="../images/piggy-bank-black.png" alt="piggy-bank-black">
+            </div>
+            <div>
+                <strong>Transfer Money</strong>
+                <img src="../images/transfer-money.png" alt="transfer-money">
+            </div>
+            <div>
+                <strong>Convert Money</strong>
+                <img src="../images/money-transaction.png" alt="money-transaction">
+            </div>
+            <div>
+                <strong>Save Money</strong>
+                <img src="../images/save-money.png" alt="save-money">
+            </div>
+            <div>
+                <strong>Card Details</strong>
+                <img src="../images/debit-card.png" alt="debit-card">
+            </div>
+        </div>
+
+        <!-- Second row with two columns: column-one and column-two -->
+        <div class="second-row">
+            <!-- Left column with multiple rows of text and a form -->
+            <div class="column-one">
+                <div class="row">
+                    <h4>Welcome to Save QuickCash: Your Destination for Financial Empowerment</h4>
+                    <p>Welcome to Save QuickCash, where financial empowerment meets smart savings strategies!
+                        At Save QuickCash, we understand the importance of building a secure financial future, and our mission is to assist you on your journey to financial stability.
+                        Whether you're a seasoned saver or just starting to explore the world of personal finance,
+                        our dedicated team is here to guide you with innovative solutions tailored to your unique goals.
+                    </p>
+                </div>
+                <div class="row">
+                    <h4>Smart Savings Made Easy at Save QuickCash: Tailored Solutions for Your Goals</h4>
+                    <p>At the heart of Save QuickCash is a commitment to making saving money not only easy but also rewarding.
+                        We offer a range of accounts and services designed to suit various needs, from high-interest savings accounts to personalized financial planning consultations.
+                        Our user-friendly online platform ensures that managing your finances is seamless, allowing you to track your savings progress, set goals, and make informed decisions effortlessly.
+                    </p>
+                </div>
+                <div class="row">
+                    <h4>Educate, Empower, Save: Join Save QuickCash on Your Journey to Financial Freedom</h4>
+                    <p>
+                        Beyond traditional banking, Save QuickCash is a community that values financial education.
+                        We regularly provide resources, tips, and workshops to empower our members with the knowledge needed to make informed financial decisions.
+                        Join us in the pursuit of financial well-being, where every penny saved brings you one step closer to achieving your dreams.
+                        Save QuickCash – Your partner in building a brighter financial future!
+                    </p>
+                </div>
+                <div class="row">
+                    <form action="">
+                        <!-- Form with input fields for first name, last name, and feedback -->
+                        <div>
+                            <label for="first-name">First name:</label>
+                            <input type="text" id="first-name" value="Numan">
+                        </div>
+                        <div>
+                            <label for="last-name">Last name:</label>
+                            <input type="text" id="last-name" value="Varol">
+                        </div>
+                        <div>
+                            <label for="feedback">Give us feedback:</label>
+                            <textarea id="feedback" rows="7" cols="40" maxlength="250"></textarea>
+                        </div>
+                        <div>
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Right column with blocks for profile, balance, and transaction history -->
+            <div class="column-two">
+                <div class="block" id="block-profile">
+                    <img src="../images/profile-user.png" alt="profile-user">
+                    <div class="info">
+                        <div class="name">Numan Varol</div>
+                        <div class="iban">
+                            <img src="../images/copy.png" alt="copy">
+                            TR76 0009 9012 3456 7800 1000 01
+                        </div>
+                    </div>
+                </div>
+                <div class="block" id="block-balance">
+                    <img src="../images/wallet-filled-money-tool.png" alt="wallet-filled-money-tool">
+                    <!-- Currency blocks with icons and amounts -->
+                    <div class="currency">
+                        <img src="../images/turkish-lira.png" alt="turkish-lira">
+                        12500
+                    </div>
+                    <div class="currency">
+                        <img src="../images/dollar-currency-symbol.png" alt="dollar-currency-symbol">
+                        434,63
+                    </div>
+                    <div class="currency">
+                        <img src="../images/euro-currency-symbol.png" alt="euro-currency-symbol">
+                        397,56
+                    </div>
+                </div>
+                <div class="block" id="block-history">
+                    <!-- Transaction history block with a title and individual transactions -->
+                    <div class="title">PAST TRANSACTIONS</div>
+                    <div class="history">+12500 TL from Boss</div>
+                    <div class="history">-500 TL Electricity payment</div>
+                    <div class="history">-25.45 TL Shop</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer section with two rows: first-row and second-row -->
+    <footer>
+        <!-- First row with blocks containing useful links and accounting/application info -->
+        <div class="first-row">
+            <div class="block">
+                <div class="title">Useful Links</div>
+                <div class="link"><a href="">Campaigns</a></div>
+                <div class="link"><a href="">Frequently Asked Questions</a></div>
+            </div>
+            <div class="block">
+                <div class="title">Accounting and Application</div>
+                <div class="link"><a href="">Calculation Tools</a></div>
+                <div class="link"><a href="">Credit Calculation</a></div>
+            </div>
+            <div class="block">
+                <div class="title">Lists/Forms</div>
+                <div class="link"><a href="">Contact Form</a></div>
+                <div class="link"><a href="">2023 Investment Timeout</a></div>
+            </div>
+        </div>
+
+        <!-- Second row with a copyright notice -->
+        <div class="second-row">
+            <p>&copy; 2023 N BANK. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -2,12 +2,16 @@
 
 ## Laptop Screen
 
-- ![Laptop_1](/screenshots/)
+- ![Laptop_1](/screenshots/Laptop_1)
+- ![Laptop_2](/screenshots/Laptop_2)
 
-## Exporting
+## Tablet Screen
 
-1. Choose a dashboard to export and click the **share** button shown on the picture.
-- ![Export](/img/export.png)
-2. From the open window click the **Export** tab. Make sure to switch open the *Export for sharing externally* button and click the **Save to file** button.
-- ![Export](/img/export2.png)
+- ![Tablet_1](/screenshots/Tablet_1)
+- ![Tablet_2](/screenshots/Tablet_2)
+
+## Mobil Screen
+
+- ![Mobil_1](/screenshots/Mobil_1)
+- ![Mobilt_2](/screenshots/Mobil_2)
 

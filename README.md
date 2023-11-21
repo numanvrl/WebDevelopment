@@ -1,6 +1,6 @@
 # Web Development Midterm Project
 
-**Project Link** : [https://github.com/numanvrl/WebDevelopment.git]
+**Project Link** : https://github.com/numanvrl/WebDevelopment.git
 
 ## Laptop Screen
 
